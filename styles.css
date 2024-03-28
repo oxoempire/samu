@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.frame {
+    width: 50%;
+}
+
+.letra-input {
+    font-size: 24px;
+    margin-top: 10px;
+    width: calc(100% - 120px);
+    padding: 5px;
+}
+
+#verificar {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#verificar:focus {
+    outline: none;
+}
